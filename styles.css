@@ -262,7 +262,10 @@ form .search-bar :focus-within{
     margin-top: 30px;
 }
 
-.deals-content {
+.deals-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     width: 700px;
     height: 500px;
@@ -276,13 +279,11 @@ form .search-bar :focus-within{
     height: 100%;
     display: block;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .overlay-deals{
-    top: 30px;
-    left: 10%;
-    right: 10%;
-    position: absolute;
+    position: static;
     padding: 50px;
     border-radius: 10px;
     border-color: #157000;
@@ -291,6 +292,11 @@ form .search-bar :focus-within{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -420px;
+    margin-bottom: 20px;
+    width: 80%;
+    z-index: 2;
+    opacity: 0.95;
 }
 
 .overlay-deals p{
@@ -305,20 +311,25 @@ form .search-bar :focus-within{
 }
 
 .deal-two{
-    margin-left:10%;
+    margin-left:30%;
+    margin-right: 30%;
 }
 
 .deals-button{
-    display:flex;
-    bottom: 20px;
-    left:10%;
-    right:10%;
     background-color: #157000;
     color: #FFFFFF;
-    padding: 10px 12px;
+    padding: 10px 32px;
     border-radius: 5px;
     text-decoration: none;
-    font-weight: bold;
+    display: inline-block;
+    z-index: 3;
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
 }
 
 .deals-button:hover{
