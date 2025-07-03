@@ -242,12 +242,16 @@ form .search-bar :focus-within{
     transform: translateY(-10px) scale(1.02);
 }
 
-.vacay-content {
+.vacay-content{
     width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.vacay-content img{
+    max-width: 100%;
+    height: auto; 
+    display: block;
 }
 
 .deals {
@@ -344,7 +348,7 @@ form .search-bar :focus-within{
 }
 
 .categories i{
-    font-size: 60px;
+    font-size: 4rem;
     color:#545454;
     margin-top: 0;
     margin-bottom: 8px;
@@ -352,33 +356,77 @@ form .search-bar :focus-within{
 
 .categories h4{
     font-size: 1.2rem;
-    bottom: 20%;
-    margin-left: 12px;
+    padding-top: 10px;
     text-transform: capitalize;
 }
 
-.category-item{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 16px;
-    margin-top: 32px;
-    margin-left: 50px;
+.categories-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: 32px 32px 0 32px;
+    padding: 0 8rem;
 }
 
 .categories i, .categories h4{
-    margin: 0 auto;
+    margin: 0;
+    align-items: center;
+    letter-spacing: 0.2rem;
 }
 
 footer{
     background-color: #FF4500;
+    justify-content: space-between;
     color: #FFFFFF;
     width: 100%;
     height: 100%;
-    display: inline-flex;
+    display: flex;
 }
 
-.payment-gateaway img{
+.footer-column{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 60px;
+    gap: 40px;
+}
+
+.footer-column h3{
+    text-align: center;
+    letter-spacing: 1.8px;
+}
+
+.footer-column ul{
+    list-style: none;
+}
+
+.footer-column ul li{
+    text-align: left;
+    line-height: 2rem;
+}
+
+.footer-column ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img{
     width: 100px;
-    
+    object-fit: contain;
 }
