@@ -122,9 +122,9 @@ form .search-bar :focus-within{
 .imag a.imag-button{
     position: absolute;
     color: #FFFFFF;
-    bottom: 60px;
-    right: 16px;
-    font-size: 35px;
+    bottom: 40px;
+    right: 30px;
+    font-size: 40px;
     background-color: #FF0000;
     padding: 4px 14px;
     border-radius: 5px;
@@ -132,19 +132,22 @@ form .search-bar :focus-within{
     z-index: 2;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     box-sizing: border-box;
-    letter-spacing: 1.2px;
 }
 
 .imag p.overlay-text{
-    font-size: 1.6rem;
-    color: #FFFFFF;
-    margin-right: 10px;
-    bottom: 20px;
-    right: 16px;
     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFFFFF;
     font-weight: bold;
-    z-index: 2;
     text-shadow: 1px -3px 1px black;
+    align-items: center;
+    display: inline-block;
+    font-size: 100px;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    opacity: 0.75;
 }
 
 .border{
