@@ -296,8 +296,8 @@ form .search-bar :focus-within{
     flex-direction: column;
     align-items: center;
     margin-top: -420px;
-    margin-bottom: 20px;
-    width: 80%;
+    width: 400px;
+    height: 250px;
     z-index: 2;
     opacity: 0.95;
 }
@@ -314,8 +314,8 @@ form .search-bar :focus-within{
 }
 
 .deal-two{
-    margin-left:30%;
-    margin-right: 30%;
+    margin-left:0%;
+    margin-right: 0%;
 }
 
 .deals-button{
@@ -404,15 +404,18 @@ footer{
     gap: 10px;
     padding: 40px 60px;
     gap: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footer-column h3{
     text-align: center;
     letter-spacing: 1.8px;
+    font-weight: 100;
 }
 
 .footer-column ul{
     list-style: none;
+    font-weight: 100;
 }
 
 .footer-column ul li{
@@ -423,6 +426,7 @@ footer{
 .footer-column ul li a{
     text-decoration: none;
     color: inherit;
+    font-weight: 100;
 }
 
 .img-grid{
