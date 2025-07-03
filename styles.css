@@ -21,6 +21,11 @@ nav {
     z-index: 1000;
 }
 
+nav .fa-user-circle{
+    font-size: 50px;
+    color:#FF0000;
+}
+
 .menu {
     width: 65%;
     display: flex;
@@ -187,14 +192,16 @@ nav {
     border: 4px solid #FF0000;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    position: relative;
+    position: center;
     display: flex;
     align-items: flex-end;
     padding: 12px;
     color: #FFFFFF;
     font-weight: bold;
+    font-display: center;
     font-size: 1.2rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    width: 80%
 }
 
 .container-card {
@@ -202,4 +209,137 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
     margin-top: 16px;
+}
+
+.vacay-content {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.deals-content {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0,0, 0.2);
+}
+
+.deals-pic{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.overlay-deals{
+    top: 30px;
+    left: 10%;
+    right: 10%;
+    position: absolute;
+    padding: 50px;
+    border-radius: 10px;
+    border-color: #157000;
+    text-align: center;
+    background-color: #157000;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay-deals p{
+    color: #FFFFFF;
+    font-size: 33px;
+}
+
+.deal-one, .deal-two{
+    color: #FFFC31;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.deal-two{
+    margin-left:10%;
+}
+
+.deals-button{
+    display:flex;
+    bottom: 20px;
+    left:10%;
+    right:10%;
+    background-color: #157000;
+    color: #FFFFFF;
+    padding: 10px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.deals-button:hover{
+    background-color: #0f4c0f;
+}
+
+.categories{
+    background-color: #f2f2f2;
+    text-align: center;
+    width:100%;
+    height: 300px;
+}
+
+.categories h2{
+    text-align: center;
+    bottom: 10%;
+    font-family: Brush Script Std;
+    color:#545454;
+    font-size: 40px;
+}
+
+.categories p{
+    text-align: center;
+    font-family: Blippo, impact;
+    color:#000000;
+    font-size: 35px;
+}
+
+.categories i{
+    font-size: 60px;
+    color:#545454;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.categories h4{
+    font-size: 1.2rem;
+    bottom: 20%;
+    margin-left: 12px;
+    text-transform: capitalize;
+}
+
+.category-item{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 16px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+.categories i, .categories h4{
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #FF4500;
+    color: #FFFFFF;
 }

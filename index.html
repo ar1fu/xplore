@@ -1,90 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        <title>Xplore</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <nav>
-            <div class="logo" img src="img/logo.png" alt="Xplore Logo"></div>
-                <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#deals">Deals</a></li>
-                    <li><a href="#packages">Packages</a></li>
-                    <li><a href="#profile">Profile</a></li>
-                </ul>
-            <div class="search-bar">
-                <form>
-                    <input type="text" placeholder="Search...">
-                </form>
-            </div>
-            <i class="fas fa-user-circle"></i>
-        </nav>
-        <div class="container-imag">
-            <div class="imag">
-                <img src="img/vacation-scenery.jpg" alt="scenery">
-                        <a class="imag-button" href="#booking">BOOK NOW!<i class="fas fa-arrow-right"></i></a>
-                <p class="overlay-text">Your budget your rights to explore!</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xplore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="logo" img src="image/logo.png" alt="Xplore Logo"></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#deals">Deals</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#profile">Profile</a></li>
+            </ul>
+        <div class="search-bar">
+            <form>
+                <input type="text" placeholder="Search...">
+            </form>
+        </div>
+        <i class="fas fa-user-circle"></i>
+    </nav>
+    <div class="container-imag">
+        <div class="imag">
+            <img src="image/scenery.jpg" alt="scenery">
+                    <a class="imag-button" href="#booking">BOOK NOW <i class="fas fa-arrow-right"></i></a>
+            <p class="overlay-text">Your budget your rights to explore!</p>
+        </div>
+    </div>
+    <section>
+        <div class="border"></div>
+    </section>
+    <section class="content">
+        <div class="inner-content">
+            <img src="image/find your destination.jpg" alt="Find Your Destination">
+            <p>Travel around the world to experience the remarkable treasures. Each country offers a unique wonderful experience for all.</p>
+        </div>
+    </section>
+    <section>
+        <div class="border"></div>
+    </section>
+    <section>
+        <h1 class="section-title">Popular Destinations</h1>
+    </section>
+    <section class="container-card">
+        <div class="card" style="background-image: url('image/japan.jpg');">
+            <p class="overlay-card-text">JAPAN</p>
+        </div>
+        <div class="card" style="background-image: url('image/italy.jpg');">
+            <p class="overlay-card-text">ITALY</p>
+        </div>
+        <div class="card" style="background-image: url('image/korea.jpg');">
+            <p class="overlay-card-text">KOREA</p>
+        </div>
+        <div class="card" style="background-image: url('image/malaysia.jpg');">
+            <p class="overlay-card-text">MALAYSIA</p>
+        </div>
+    </section>
+    <section>
+        <div class="border"></div>
+    </section>
+    <section>
+        <h1 class="section-title">Asia Journey</h1>
+    </section>
+    <section class="container-card">
+        <div class="card" style="background-image: url('image/singapore.jpg');">
+            <p class="overlay-card-text">SINGAPORE</p>
+        </div>
+        <div class="card" style="background-image: url('image/thailand.jpg');">
+            <p class="overlay-card-text">THAILAND</p>
+        </div>
+        <div class="card" style="background-image: url('image/malaysia.jpg');">
+            <p class="overlay-card-text">MALAYSIA</p>
+        </div>
+        <div class="card" style="background-image: url('image/japan.jpg');">
+            <p class="overlay-card-text">JAPAN</p>
+        </div>
+    </section>
+    <section>
+        <div class="border"></div>
+    </section>
+    <section>
+        <div class="vacay-content">
+            <img src="image/vacay deals.jpg" alt="Vacation">
+        </div>
+    </section>
+    <section>
+        <div class="border"></div>
+    </section>
+    <section class="deals">
+        <div class="deals-content">
+            <img src="image/deals pic1.jpg" alt="deals pic1" class="deals-pic">
+            <a class="overlay-deals">
+                <p>USE PROMO CODE <span class="deal-one">XPLORE2GETHER</span> FOR YOUR FIRST BOOKING</p>
+            </a>
+            <i><a class="deals-button" href="#book-deals">BOOK NOW</a></i>
+        </div>
+        <div class="deals-content">
+            <img src="image/deals pic2.jpg" alt="deals pic2" class="deals-pic">
+            <a class="overlay-deals">
+                <p>BUY ONE GET ONE AT <span class="deal-two">50% OFF</span></p>
+            </a>
+            <i><a class="deals-button" href="#book-deals">BOOK NOW</a></i>
+        </div>
+    </section>
+    <section>
+        <div class="border"></div>
+    </section>
+    <section class="categories">
+        <h2>Categories</h2>
+        <p>YOUR WAY TO XPLORE</p>
+        <div class="category-item">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <h4>historical</h4>
+        </div>
+        <div class="category-item">
+            <i class="fa fa-mountain" aria-hidden="true"></i>
+            <h4>adventure</h4>
+        </div>
+        <div class="category-item">
+            <i class="fas fa-heart" aria-hidden="true"></i>
+            <h4>honeymoon</h4>
+        </div>
+        <div class="category-item">
+            <i class="fa fa-umbrella" aria-hidden="true"></i>
+            <h4>beach</h4>
+        </div>
+        <div class="category-item">
+            <i class="fa fa-mosque" aria-hidden="true"></i>
+            <h4>religious</h4>
+        </div>
+    </section>
+    <section>
+        <div class="border"></div>
+        <div class="border"></div>
+    </section>
+
+    <footer>
+        <div class="about-us">
+            <h3>About Us</h3>
+            <ul class="about">
+                <li><a href="about-xplore">About Xplore</a></li>
+                <li><a href="company-profile">Company Profile</a></li>
+                <li><a href="events">Events</a></li>
+            </ul>
+        </div>
+        <div class="contact-us">
+            <h3>Contact Us</h3>
+            <ul class="contact">
+                <li><a href="location">Wisma Star Travel, 42-44, Jalan Raja Abdullah, 50300 Kuala Lumpur, Malaysia</a></li>
+                <li><a href="tel-office">+603 2786 7555 (Office)</a></li>
+                <li><a href="tel-flights">+601 3297 7777 (Flights)</a></li>
+                <li><a href="tel-tour">+601 7504 7177 (Tours)</a></li>
+            </ul>
+        </div>
+        <div class="payment-methods">
+            <h3>Payment Methods</h3>
+            <div class="payment-gateaway">
+                <img src="image/paypal-logo.png" href="paypal" alt="Paypal">
+                <img src="image/mastercard-logo.png" href="mastercard" alt="Mastercard">
+                <img src="image/visa-logo.png" href="visa" alt="Visa">
+                <img src="image/maestro-logo.png" href="maestro" alt="Maestro">
+                <img src="image/applepay-logo.png" href="applepay" alt="Applepay">
+                <img src="image/amazonpay-logo.png" href="amazonpay" alt="Amazonpay">
+                <img src="image/googlepay-logo.png" href="googlepay" alt="Googlepay">
+                <img src="image/stripe-logo.png" href="stripepay" alt="Stripe">
             </div>
         </div>
-        <section>
-            <div class="border"></div>
-        </section>
-        <section class="content">
-            <div class="inner-content">
-                <img src="image/find your destination.jpg" alt="Find Your Destination">
-                <p>Travel around the world to experience the remarkable treasures. Each country offers a unique wonderful experience for all.</p>
-            </div>
-        </section>
-        <section>
-            <div class="border"></div>
-        </section>
-        <div class="container-card">
-            <h1>Popular Destinations</h1>
-            <div class="card">                
-                <img src="img/japan-kyoto.jpg" alt="JAPAN">
-                <p class="overlay-text">JAPAN</p>
-            </div>
-            <div class="card">                
-                <img src="img/italy-rome.jpg" alt="ITALY">
-                <p class="overlay-text">ITALY</p>
-            </div>
-            <div class="card">               
-                <img src="img/southKorea-seoul.jpg" alt="KOREA">
-                <p class="overlay-text">KOREA</p>
-            </div>
-            <div class="card">               
-                <img src="img/kl-malaysia.jpg" alt="MALAYSIA">
-                <p class="overlay-text">MALAYSIA</p>
-            </div>
-        </div>
-        <div class="spacer"></div>
-        <div class="container-card">
-            <h1>Asia Journey</h1>
-            <div class="card">                
-                <img src="img/singapore.jpg" alt="SINGAPORE">
-                <p class="overlay-text">SINGAPORE</p>
-            </div>
-            <div class="card">                
-                <img src="img/kl-malaysia.jpg" alt="MALAYSIA">
-                <p class="overlay-text">MALAYSIA</p>
-            </div>
-            <div class="card">               
-                <img src="img/japan-kyoto.jpg" alt="JAPAN">
-                <p class="overlay-text">JAPAN</p>
-            </div>
-            <div class="card">               
-                <img src="img/thailand.jpg" alt="THAILAND">
-                <p class="overlay-text">THAILAND</p>
-            </div>
-        </div>
-        <div class="container-card">
-            <h1>This is just testing</h1>
-        </div>
-    </body>
+    </footer>
+</body>
 </html>
