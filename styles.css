@@ -384,3 +384,7 @@ footer{
     background-color: #FF4500;
     color: #FFFFFF;
 }
+
+.payment-gateaway img{
+    width: 100px;
+}
