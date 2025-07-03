@@ -183,6 +183,17 @@ nav .fa-user-circle{
     margin-right: auto;
 }
 
+.section-title{
+    letter-spacing: 1.6px;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 16px;
+}
+
 .content img{
     max-width: 30%;
     margin: 0;
@@ -239,13 +250,6 @@ nav .fa-user-circle{
 
 .card:hover{
     transform: translateY(-10px) scale(1.02);
-}
-
-.container-card {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    margin-top: 16px;
 }
 
 .vacay-content {
