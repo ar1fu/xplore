@@ -228,6 +228,8 @@ form .search-bar :focus-within{
     font-size: 3rem;
     font-weight: bold;
     text-shadow: 4px 4px 4px black;
+    transform: translateX(-50%);
+    align-items: center;
 }
 
 .card img{
