@@ -227,9 +227,7 @@ form .search-bar :focus-within{
     padding: 1rem;
     font-size: 3rem;
     font-weight: bold;
-    text-shadow: 4px 5px 7px black;
-    text-align: center;
-    transform: translateX(-50%);
+    text-shadow: 4px 4px 4px black;
 }
 
 .card img{
