@@ -141,7 +141,7 @@ form .search-bar :focus-within{
     transform: translate(-50%,-50%);
     color: #FFFFFF;
     font-weight: bold;
-    text-shadow: 1px -3px 1px black;
+    text-shadow: 7px -3px 7px rgb(0, 0, 0);
     align-items: center;
     display: inline-block;
     font-size: 100px;
@@ -158,22 +158,23 @@ form .search-bar :focus-within{
 
 .content{
     width: 100%;
-    min-height: 60vh;
-    padding: 30px;
+    min-height: 50vh;
+    padding: 10px;
     background-color: #f2f2f2;
     position: relative;
     display: flex;
     align-items:center;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
 }
 
 .inner-content{
     display:flex;
     align-items: center;
-    gap:40px;
-    margin-left: auto;
-    margin-right: auto;
+    gap:50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 100px;
 }
 
 .section-title{
@@ -188,17 +189,18 @@ form .search-bar :focus-within{
 }
 
 .content img{
-    max-width: 30%;
+    max-width: 50%;
     margin: 0;
     display:block;
 }
 
 .content p{
-    font-size: 20px;
+    font-size: 25px;
     color: #545454;
     margin: 0;
     line-height: 1.6;
     font-weight: bold;
+    letter-spacing: 1.2px;
 }
 
 .card{
