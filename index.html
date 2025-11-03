@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xplore</title>
+    <meta name="author" content="Xplore Adventure Sdn Bhd">
+    <meta name="description" content="Malaysia's Small Newest Travel Agency with Online Booking for Traveling. Plane Tickets, Private Tour Guide and Rent Vehicle.">
+    <!---Logo attach to the tab--->
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Tab's name-->
+    <title>Xplore | Travel Agency's Choice</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,12 +19,13 @@
 <body>
     <!--navigation-->
     <nav>
-        <div class="logo" img src="img/logo.png" alt="Xplore Logo"></div>
+        <a href="index.html" aria-label="Home">
+        <div class="logo" img src="img/logo.png" alt="Xplore Logo"></div></a>
             <ul class="menu">
-                <li><a href="#home">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#deals">Deals</a></li>
                 <li><a href="#packages">Packages</a></li>
-                <li><a href="#profile">Profile</a></li>
+                <li><a href="profile.html">Profile</a></li>
             </ul>
         <form>
             <div class="search-bar">
@@ -26,14 +33,16 @@
                 <input class="search-input" type="text" placeholder="Search...">
             </div>
         </form>
-        <i class="fas fa-user-circle"></i>
+        <a href="profile.html" aria-label="Profile">
+        <i class="fas fa-user-circle"></i></a>
     </nav>
+    
     <!--container image for scenery image-->
     <div class="container-imag">
         <div class="imag">
             <img src="img/scenery.jpg" alt="scenery">
                     <a class="imag-button" href="#booking">BOOK NOW <i class="fas fa-arrow-right"></i></a>
-            <p class="overlay-text">Your budget your rights to explore!</p>
+            <p class="overlay-text">Your budget, your rights to explore!</p>
         </div>
     </div>
     <!--spacer in between -->
@@ -165,10 +174,10 @@
         <div class="footer-column">
             <h3>Contact Us</h3>
             <ul class="contact">
-                <li><a href="location">Wisma Star Travel, 42-44, Jalan Raja Abdullah, 50300 Kuala Lumpur, Malaysia</a></li>
-                <li><a href="tel-office">+603 2786 7555 (Office)</a></li>
-                <li><a href="tel-flights">+601 3297 7777 (Flights)</a></li>
-                <li><a href="tel-tour">+601 7504 7177 (Tours)</a></li>
+                <li><a href="location"><i class="fa fa-map" aria-hidden="true"></i> Wisma Star Travel, 42-44, Jalan Raja Abdullah, 50300 Kuala Lumpur, Malaysia</a></li>
+                <li><a href="tel-office"><i class="fa fa-phone" aria-hidden="true"></i> +603 2786 7555 (Office)</a></li>
+                <li><a href="tel-flights"><i class="fa fa-phone" aria-hidden="true"></i> +601 3297 7777 (Flights)</a></li>
+                <li><a href="tel-tour"><i class="fa fa-phone" aria-hidden="true"></i> +601 7504 7177 (Tours)</a></li>
             </ul>
         </div>
         <div class="footer-column">
